@@ -284,7 +284,8 @@
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .about-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .about-photo { aspect-ratio: 4/3; max-width: 480px; }
+  .about-photo { aspect-ratio: 4/5; max-width: 380px; margin: 0 auto; }
+  .about-photo img { object-position: center 15%; }
   .for-grid { grid-template-columns: 1fr; gap: 3rem; }
   .gets-grid, .packages-grid { grid-template-columns: 1fr; max-width: 480px; margin-left: auto; margin-right: auto; }
 }
@@ -293,3 +294,4 @@
   .hero-proof { gap: 1.2rem; flex-wrap: wrap; }
   .footer { flex-direction: column; text-align: center; }
 }
+              
