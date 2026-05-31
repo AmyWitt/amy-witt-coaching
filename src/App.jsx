@@ -194,7 +194,7 @@ const packages = [
       'Programmed in 8–12 week cycles for real progressive results',
       '4 days/week with built-in progressive overload',
       'Exercise demos and coaching notes included',
-      'Designed for anyone who wants expert programming',
+      'Designed for gyms with barbells and dumbbells — no machines needed (with options for those who have them)',
       'Cancel anytime — no refunds for unused months',
     ],
     link: STRIPE.monthly,
