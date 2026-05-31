@@ -27,7 +27,7 @@ function Hero() {
           Stop Guessing.<br />Start Getting <em>Stronger.</em>
         </h1>
         <p className="hero-sub fade-up delay-2">
-          You've put in the reps. But <strong>random workouts and guesswork are keeping you stuck.</strong> My programming gives you a smart, structured path to real, lasting strength. No trial and error.
+          You've put in the reps. But <strong>random workouts and guesswork are keeping you stuck.</strong> My programming gives you a smart, structured path to real, lasting strength — without the trial and error.
         </p>
         <div className="hero-ctas fade-up delay-3">
           <a href="#packages" className="btn-primary">See My Programs</a>
@@ -72,12 +72,12 @@ function Pain() {
           You've been spinning your wheels at the gym. <span>Now it's time to make your training work for you.</span>
         </div>
         <div className="pain-body">
-          <p>You've been trying on your own to train consistently. With off and on again results. And if you're being honest... you've been winging it. Maybe you're following random YouTube programs, cycling through the same workouts, or just doing whatever feels right that day.</p>
+          <p>You've been trying on your own to train consistently. With off and on again results. And if you're being honest — you've been winging it. Maybe you're following random YouTube programs, cycling through the same workouts, or just doing whatever feels right that day.</p>
           <p><strong>And things have stalled.</strong> You're not getting weaker, but you're not getting noticeably stronger either. You hit the gym, put in the work, and still feel like you're spinning your wheels.</p>
           <div className="pain-callout">
-            <strong>Here's the thing:</strong> effort without structure only gets you so far. What separates lifters who keep progressing from those who plateau isn't how hard they work. It's <strong>how intelligently they train.</strong>
+            <strong>Here's the thing:</strong> effort without structure only gets you so far. What separates lifters who keep progressing from those who plateau isn't how hard they work — it's <strong>how intelligently they train.</strong>
           </div>
-          <p>That's where I come in. After close to 20 years in the gym and over a decade of coaching real people in my gym and now online. I build programs that remove the guesswork entirely, so you can stop second-guessing and <strong>start making consistent, measurable progress.</strong></p>
+          <p>That's where I come in. After close to 20 years in the gym and over a decade of coaching real people — in my gym and now online — I build programs that remove the guesswork entirely, so you can stop second-guessing and <strong>start making consistent, measurable progress.</strong></p>
         </div>
       </div>
     </section>
@@ -87,7 +87,7 @@ function Pain() {
 const getCards = [
   {
     title: 'Smart, Periodized Programming',
-    body: 'No random workouts. Every session builds on the last with intentional progressive overload. Your body is always adapting, never plateauing.',
+    body: 'No random workouts. Every session builds on the last with intentional progressive overload — so your body is always adapting, never plateauing.',
     icon: <svg viewBox="0 0 24 24" stroke="#1A6EE8" fill="none" strokeWidth="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>,
   },
   {
@@ -107,12 +107,12 @@ const getCards = [
   },
   {
     title: 'Options to Adapt to Your Setup',
-    body: "Barbell gym, home gym, dumbbells only. The Personalized and Full Coaching tiers include equipment adaptations built specifically around what you have, not what's ideal in a perfect world.",
+    body: "Barbell gym, home gym, dumbbells only — the Personalized and Full Coaching tiers include equipment adaptations built specifically around what you have, not what's ideal in a perfect world.",
     icon: <svg viewBox="0 0 24 24" stroke="#1A6EE8" fill="none" strokeWidth="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>,
   },
   {
     title: 'Form Feedback (Full Coaching)',
-    body: 'In the top tier, Amy reviews video of your lifts daily. Amy catches form issues before they become injuries and giving you cues to lift more effectively and safely.',
+    body: 'In the top tier, Amy reviews video of your lifts daily — catching form issues before they become injuries and giving you cues to lift more effectively and safely.',
     icon: <svg viewBox="0 0 24 24" stroke="#1A6EE8" fill="none" strokeWidth="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>,
   },
 ]
@@ -123,7 +123,7 @@ function WhatYouGet() {
       <div className="center">
         <div className="section-label">What You Get</div>
         <h2 className="section-title">More Than Just a Workout Plan</h2>
-        <p className="section-sub">Every program is built to give you the clarity, structure, and support to actually move forward. Not just stay busy.</p>
+        <p className="section-sub">Every program is built to give you the clarity, structure, and support to actually move forward — not just stay busy.</p>
       </div>
       <div className="gets-grid">
         {getCards.map((c) => (
@@ -148,9 +148,9 @@ function About() {
         <div className="about-text">
           <div className="section-label">About Amy</div>
           <h2 className="section-title">This Isn't My First Rep.</h2>
-          <p>I spent years running a gym. I watched what works, what doesn't, and what <strong>lifters specifically</strong> need to keep making progress. I've written programs and coached hundreds of clients, from beginners up to advanced lifters who needed a smarter path forward.</p>
-          <p>When I sold my gym, I took everything I'd learned and built it into an online coaching model that gives you the same quality of programming <strong>without needing to step foot in my gym.</strong></p>
-          <p>My programs aren't padded with filler. Every exercise has purpose. They're designed for people who are serious about getting stronger and want a coach who's equally serious about their results.</p>
+          <p>I spent years running a gym — watching what works, what doesn't, and what <strong>lifters specifically</strong> need to keep making progress. I've written programs and coached hundreds of clients, from beginners up to advanced lifters who needed a smarter path forward.</p>
+          <p>When I sold my gym, I took everything I'd learned and built it into an online coaching model that gives you the same quality of programming — <strong>without needing to step foot in my gym.</strong></p>
+          <p>My programs aren't padded with filler — every exercise has purpose. They're designed for people who are serious about getting stronger and want a coach who's equally serious about their results.</p>
           <div className="credential-list">
             <div className="credential">
               <div className="cred-icon"><svg viewBox="0 0 24 24" stroke="#1A6EE8" fill="none" strokeWidth="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
@@ -169,7 +169,7 @@ function About() {
         <div className="about-visual">
           <div className="about-accent" />
           <div className="big-quote">
-            "The gap between <span>spinning your wheels</span> and real progress isn't just about effort. It's also about <span>program quality</span> and having a smart plan."
+            "The gap between <span>spinning your wheels</span> and real progress isn't just about effort — it's also about <span>program quality</span> and having a smart plan."
           </div>
           <div className="quote-attr">— Amy Witt</div>
           <div className="mini-stats">
@@ -187,15 +187,15 @@ function About() {
 const packages = [
   {
     name: 'Monthly Program',
-    tagline: 'Full 8–12 week strength cycles, not just 4 weeks of random workouts.',
+    tagline: 'Full 8–12 week strength cycles — not just 4 weeks of random workouts.',
     price: '$53',
     period: 'per month',
     features: [
       'Programmed in 8–12 week cycles for real progressive results',
       '4 days/week with built-in progressive overload',
       'Exercise demos and coaching notes included',
-      'Designed for gyms with barbells and dumbbells. No machines needed (with options for those who have them)',
-      'Cancel anytime. No refunds for unused months',
+      'Designed for gyms with barbells and dumbbells — no machines needed (with options for those who have them)',
+      'Cancel anytime — no refunds for unused months',
     ],
     link: STRIPE.monthly,
     featured: false,
@@ -237,7 +237,7 @@ function Packages() {
       <div className="center">
         <div className="section-label">Programs &amp; Pricing</div>
         <h2 className="section-title">Pick Your Level of Support</h2>
-        <p className="section-sub">Whether you want smart programming to follow independently or full coaching with daily feedback. There's a tier built for where you are.</p>
+        <p className="section-sub">Whether you want smart programming to follow independently or full coaching with daily feedback — there's a tier built for where you are.</p>
       </div>
       <div className="packages-grid">
         {packages.map((pkg) => (
@@ -271,10 +271,10 @@ function ForYou() {
           <h2 className="section-title">You're Ready If...</h2>
           <ul className="for-list">
             {[
-              { n: '01', title: 'You already know the movements', body: "Squats, deadlifts, presses. You've got the basics. You just need a smarter plan to take things further." },
+              { n: '01', title: 'You already know the movements', body: "Squats, deadlifts, presses — you've got the basics. You just need a smarter plan to take things further." },
               { n: '02', title: "You've hit a plateau and want to break it", body: 'Your progress has stalled and you know random programming is the reason. It\'s time for something structured.' },
               { n: '03', title: 'You want to train smarter, not just harder', body: "You're done grinding without direction. You want programming that's designed to actually produce results." },
-              { n: '04', title: 'You have specific equipment or constraints', body: 'Home gym, limited gear, unusual schedule. The Personalized and Full Coaching tiers are built around your reality.' },
+              { n: '04', title: 'You have specific equipment or constraints', body: 'Home gym, limited gear, unusual schedule — Personalized and Full Coaching tiers are built around your reality.' },
             ].map((item) => (
               <li className="for-item" key={item.n}>
                 <span className="for-num">{item.n}</span>
@@ -289,7 +289,7 @@ function ForYou() {
           <div className="steps-list">
             {[
               { n: '1', title: 'Choose your tier', body: 'Pick the level of support that fits your goals and budget.' },
-              { n: '2', title: 'Receive your first program', body: 'Your program lands in your inbox within 48 hours, ready to go.' },
+              { n: '2', title: 'Receive your first program', body: 'Your program lands in your inbox within 48 hours — ready to go.' },
               { n: '3', title: 'Train, track, get stronger', body: 'Follow the plan, log your lifts, and watch consistent progress replace the guesswork.' },
             ].map((s) => (
               <div className="step-item" key={s.n}>
@@ -305,10 +305,10 @@ function ForYou() {
 }
 
 const faqs = [
-  { q: 'Is this only for experienced lifters?', a: "Not at all. Amy has coached everyone from complete beginners to advanced lifters. If you're newer to lifting, reach out and she can advise on the best starting point for you." },
-  { q: 'What if I only have a home gym or limited equipment?', a: 'The Personalized and Full Coaching tiers are built exactly for this. Amy adapts every session to the equipment you actually have. No compromises and no filler exercises just to fill space.' },
-  { q: 'How is this different from following a program I find online?', a: "Free programs are written for a generic lifter. Amy's programs are written with context. Her close-to-20 years of coaching experience and your actual equipment, history, and goals. It's the difference between a generic template and a real training plan built for you." },
-  { q: 'What does video feedback in Full Coaching actually look like?', a: 'You send short clips of your lifts (a phone propped up is totally fine). Amy reviews them daily. You\'ll get specific, actionable coaching cues to improve your technique, manage fatigue, and make each session count.' },
+  { q: 'Is this only for experienced lifters?', a: "Not at all — Amy has coached everyone from complete beginners to advanced lifters. If you're newer to lifting, reach out and she can advise on the best starting point for you." },
+  { q: 'What if I only have a home gym or limited equipment?', a: 'The Personalized and Full Coaching tiers are built exactly for this. Amy adapts every session to the equipment you actually have — no compromises, no filler exercises just to fill space.' },
+  { q: 'How is this different from following a program I find online?', a: "Free programs are written for a generic lifter. Amy's programs are written with context — her close-to-20 years of coaching experience, and (in the Personalized/Full tiers) your actual equipment, history, and goals. It's the difference between a template and a real training plan." },
+  { q: 'What does video feedback in Full Coaching actually look like?', a: 'You send short clips of your lifts — a phone propped up is totally fine — and Amy reviews them daily. You\'ll get specific, actionable coaching cues to improve your technique, manage fatigue, and make each session count.' },
   { q: 'Can I switch tiers or cancel?', a: "Yes to both. You can upgrade, downgrade, or cancel at any time. Just message Amy and she'll sort it out quickly. Please note no refunds are given for unused months." },
   { q: 'How quickly will I receive my first program?', a: 'Within 48 hours of completing your intake form. Amy reviews every intake personally before building your program. You\'ll always get something thoughtfully designed, not auto-generated.' },
 ]
@@ -340,7 +340,7 @@ function CTABanner() {
   return (
     <section className="cta-banner" id="contact">
       <h2>You're Putting in the Work. Your Program Should Too.</h2>
-      <p>Expert programming from a coach who's spent close to 20 years in the gym, now available wherever you train.</p>
+      <p>Expert programming from a coach who's spent close to 20 years in the gym — now available wherever you train.</p>
       <a href="#packages" className="btn-white">Choose Your Program</a>
     </section>
   )
