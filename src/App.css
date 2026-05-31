@@ -290,6 +290,6 @@
 }
 @media (max-width: 600px) {
   .light, .light-alt, .pain-section { padding: 4rem 5vw; }
-  .hero-proof { gap: 1.2rem; }
+  .hero-proof { gap: 1.2rem; flex-wrap: wrap; }
   .footer { flex-direction: column; text-align: center; }
 }
