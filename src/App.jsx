@@ -3,8 +3,8 @@ import amyPhoto from './assets/amy.js'
 import './App.css'
 
 const STRIPE = {
-  monthly: 'https://buy.stripe.com/4gM9AT05Afgma9Ocyx08g00',
-  personalized: 'https://buy.stripe.com/14A4gz6tY7NU81G56508g02',
+  monthly: 'https://buy.stripe.com/cNi9AT4lQ8RYdm08ih08g03',
+  personalized: 'https://buy.stripe.com/14A3cvf0ub06chWbut08g04',
   full: 'https://buy.stripe.com/eVqdR98C6fgmgycgON08g01',
 }
 
@@ -188,7 +188,7 @@ const packages = [
   {
     name: 'Monthly Program',
     tagline: 'Full 8–12 week strength cycles — not just 4 weeks of random workouts.',
-    price: '$79',
+    price: '$53',
     period: 'per month',
     features: [
       'Programmed in 8–12 week cycles for real progressive results',
@@ -203,7 +203,7 @@ const packages = [
   {
     name: 'Personalized Program',
     tagline: 'The monthly program, adapted to your exact equipment and setup.',
-    price: '$40',
+    price: '$42',
     period: 'per week',
     features: [
       'Everything in Monthly Program',
