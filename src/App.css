@@ -58,8 +58,9 @@
 }
 .btn-secondary:hover { color: var(--blue-light); }
 .hero-proof {
-  display: flex; gap: 2.5rem; margin-top: 3.5rem;
-  padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08); flex-wrap: wrap;
+  display: flex; gap: 2rem; margin-top: 3.5rem;
+  padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08);
+  flex-wrap: nowrap; align-items: center;
 }
 .proof-item { display: flex; align-items: center; gap: 0.6rem; }
 .proof-icon {
