@@ -131,8 +131,8 @@
   display: grid; grid-template-columns: 1fr 1fr 1fr;
   gap: 3rem; align-items: start; max-width: 1200px; margin: 0 auto;
 }
-.about-photo { border-radius: 16px; overflow: hidden; border: 1px solid var(--light-border); aspect-ratio: 3/4; width: 100%; }
-.about-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+.about-photo { border-radius: 16px; overflow: hidden; border: 1px solid var(--light-border); aspect-ratio: 2/3; width: 100%; }
+.about-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 10%; display: block; }
 .about-text p { line-height: 1.8; margin-bottom: 1.2rem; font-size: 1rem; color: #444; }
 .about-text strong { color: var(--light-text); }
 .credential-list { margin-top: 2rem; display: flex; flex-direction: column; gap: 0.9rem; }
@@ -294,4 +294,3 @@
   .hero-proof { gap: 1.2rem; flex-wrap: wrap; }
   .footer { flex-direction: column; text-align: center; }
 }
-              
