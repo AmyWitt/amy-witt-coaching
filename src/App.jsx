@@ -149,7 +149,7 @@ function About() {
           <div className="section-label">About Amy</div>
           <h2 className="section-title">This Isn't My First Rep.</h2>
           <p>I spent years running a gym — watching what works, what doesn't, and what <strong>lifters specifically</strong> need to keep making progress. I've written programs and coached hundreds of clients, from beginners up to advanced lifters who needed a smarter path forward.</p>
-          <p>When I closed my gym, I took everything I'd learned and built it into an online coaching model that gives you the same quality of programming — <strong>without needing to step foot in my gym.</strong></p>
+          <p>When I sold my gym, I took everything I'd learned and built it into an online coaching model that gives you the same quality of programming — <strong>without needing to step foot in my gym.</strong></p>
           <p>My programs aren't padded with filler — every exercise has purpose. They're designed for people who are serious about getting stronger and want a coach who's equally serious about their results.</p>
           <div className="credential-list">
             <div className="credential">
@@ -289,9 +289,8 @@ function ForYou() {
           <div className="steps-list">
             {[
               { n: '1', title: 'Choose your tier', body: 'Pick the level of support that fits your goals and budget.' },
-              { n: '2', title: 'Fill out a quick intake form', body: "Tell Amy about your training history, equipment, and what you're working toward." },
-              { n: '3', title: 'Receive your first program', body: 'Your program lands in your inbox within 48 hours — ready to go.' },
-              { n: '4', title: 'Train, track, get stronger', body: 'Follow the plan, log your lifts, and watch consistent progress replace the guesswork.' },
+              { n: '2', title: 'Receive your first program', body: 'Your program lands in your inbox within 48 hours — ready to go.' },
+              { n: '3', title: 'Train, track, get stronger', body: 'Follow the plan, log your lifts, and watch consistent progress replace the guesswork.' },
             ].map((s) => (
               <div className="step-item" key={s.n}>
                 <div className="step-n">{s.n}</div>
