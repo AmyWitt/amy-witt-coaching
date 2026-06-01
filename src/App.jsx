@@ -27,7 +27,7 @@ function Hero() {
           Stop Guessing.<br />Start Getting <em>Stronger.</em>
         </h1>
         <p className="hero-sub fade-up delay-2">
-          You've put in the reps. But <strong>random workouts and guesswork are keeping you stuck.</strong> My programming gives you a smart, structured path to real, lasting strength — without the trial and error.
+          You've put in the reps. But <strong>random workouts and guesswork are keeping you stuck.</strong> This programming gives you a smart, structured path to real, lasting strength — without the trial and error.
         </p>
         <div className="hero-ctas fade-up delay-3">
           <a href="#packages" className="btn-primary">See My Programs</a>
