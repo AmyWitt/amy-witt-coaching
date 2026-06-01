@@ -191,7 +191,7 @@ const packages = [
     price: '$79',
     period: 'per month',
     features: [
-      'Programmed in 8–12 week cycles for real progressive results',
+      'Workouts focused on getting stronger, moving better, and staying consistent',
       '4 days/week with built-in progressive overload',
       'Exercise demos and coaching notes included',
       'Designed for gyms with barbells and dumbbells — no machines needed (with options for those who have them)',
@@ -206,11 +206,11 @@ const packages = [
     price: '$42',
     period: 'per week',
     features: [
-      'Everything in Monthly Program',
-      'Adapted to your home gym, garage, or available gear',
-      'Smart substitutions so nothing gets skipped',
+      'Built from the same framework as the monthly program, but tailored directly to you',
+      'Customized based on your equipment and previous training history',
       'Adjusted weekly based on your progress',
       'Direct message access to Amy',
+      'Cancel anytime — no refunds for unused months',
     ],
     link: STRIPE.personalized,
     featured: true,
