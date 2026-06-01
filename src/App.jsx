@@ -162,7 +162,7 @@ function About() {
             </div>
             <div className="credential">
               <div className="cred-icon"><svg viewBox="0 0 24 24" stroke="#1A6EE8" fill="none" strokeWidth="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
-              <div className="cred-text"><strong>Specializes in Online Coaching</strong>Remote programs adapted to your space, schedule, and equipment</div>
+              <div className="cred-text"><strong>Coached &amp; Programmed for Hundreds</strong>Real people, real results — from first-time lifters to seasoned athletes</div>
             </div>
           </div>
         </div>
