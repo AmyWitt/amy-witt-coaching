@@ -191,7 +191,7 @@ const packages = [
     price: '$79',
     period: 'per month',
     features: [
-      'Workouts focused on getting stronger, moving better, and staying consistent',
+      'Workouts focused on getting stronger, moving better, and staying consistent — runs in 6–8 week cycles',
       '4 days/week with built-in progressive overload',
       'Exercise demos and coaching notes included',
       'Designed for those who have basic knowledge of most movements',
