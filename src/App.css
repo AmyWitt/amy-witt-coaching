@@ -71,7 +71,7 @@
 .big-quote { font-family: 'DM Serif Display', serif; font-style: italic; font-size: 1.5rem; line-height: 1.5; color: var(--light-text); margin-bottom: 1.5rem; }
 .big-quote span { color: var(--blue); }
 .quote-attr { font-size: 0.85rem; color: #999; }
-.mini-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--light-border); }
+.mini-stats { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.2rem; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--light-border); }
 .mini-stat .num { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; color: var(--blue); display: block; line-height: 1; }
 .mini-stat .lbl { font-size: 0.75rem; color: #999; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.08em; }
 
