@@ -132,7 +132,6 @@ function About() {
             <div className="mini-stat"><span className="num">20</span><span className="lbl">Years in the gym</span></div>
             <div className="mini-stat"><span className="num">100s</span><span className="lbl">Clients trained</span></div>
             <div className="mini-stat"><span className="num">3-4×</span><span className="lbl">Days per week</span></div>
-            <div className="mini-stat"><span className="num">1</span><span className="lbl">Program tier</span></div>
           </div>
         </div>
       </div>
